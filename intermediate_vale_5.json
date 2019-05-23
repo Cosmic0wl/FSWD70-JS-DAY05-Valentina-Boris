@@ -1,0 +1,107 @@
+var employees = [{
+		"id": "a345",
+		"firstName": "Valentina",
+		"lastName": "Panetta",
+		"emailAdress": "valep@ceo.com",
+		"jobTitle": "CEO",
+		"salary": ";)"
+	}, {
+		"id": "b344",
+		"firstName": "John",
+		"lastName": "Marston",
+		"emailAdress": "jmarston@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1500"
+	}, {
+		"id": "c343",
+		"firstName": "Arthur",
+		"lastName": "Morgan",
+		"emailAdress": "amorgan@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1900"
+	}, {
+		"id": "d342",
+		"firstName": "Sean",
+		"lastName": "MacGuire",
+		"emailAdress": "smacguire@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1200"
+	}, {
+		"id": "e341",
+		"firstName": "Dutch",
+		"lastName": "Van der Linde",
+		"emailAdress": "dvanderline@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1500"
+	}, {
+		"id": "f340",
+		"firstName": "Javier",
+		"lastName": "Escuella",
+		"emailAdress": "jescuella@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1800"
+	}, {
+		"id": "g339",
+		"firstName": "Hosea",
+		"lastName": "Matthews",
+		"emailAdress": "hmatthews@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1700"
+	}, {
+		"id": "h338",
+		"firstName": "Charles",
+		"lastName": "Smith",
+		"emailAdress": "csmith@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1900"
+	}, {
+		"id": "i337",
+		"firstName": "Lenny",
+		"lastName": "Summers",
+		"emailAdress": "lsummers@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1200"
+	}, {
+		"id": "j336",
+		"firstName": "Kieran",
+		"lastName": "Duffy",
+		"emailAdress": "kduffy@employee.com",
+		"jobTitle": "Employee",
+		"salary": "1300"
+	}, 
+	];
+
+/*{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Employees",
+	"description": "Employees Information",
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "Unique identifier for the employee",
+			"type": "string"
+		},
+		"firstName": {
+			"description": "The first name of the employee",
+			"type": "string"
+		},
+		"lastName": {
+			"description": "The last name of the employee",
+			"type": "string"
+		},
+		"emailAdress": {
+			"description": "The email adress of the employee",
+			"type": "string"
+		},
+		"jobTitle": {
+			"description": "The job of the employee",
+			"type": "string"
+		},
+		"salary": {
+			"description": "The slary of the employee",
+			"type": "number"
+		}
+	}
+
+}
+*/
