@@ -17,7 +17,6 @@
                     <li class="list"><a href="#" class="link">Cabbage</a></li>
                     <li class="list"><a href="#cart" class="link">Cart</a></li>
                 </ul>
-                
             </div>
         </div>
         <div class="wrapper">
@@ -87,9 +86,7 @@
             <div id="cart">
                 <h2>Your Cart</h2>
                 <div class="purchased">
-                    <p>Your item</p>
-                    <button>+</button>
-                    <button>-</button>
+                    <div id="items"></div>
                 </div>
             </div>
         </div>
@@ -101,9 +98,9 @@
             A.k.a Team Bad Vöslau <br>
             Codefactory - 2019</p>
     </div>
-   
-    <script src="Cabbagelist.json"></script>
+    <script type="text/javascript" src="Cabbagelist.json"></script>
     <script>
+    /*
     var btn = document.getElementsByClassName("button");
     var added = document.getElementsByClassName("added");
     var removed = document.getElementsByClassName("removed");
@@ -111,45 +108,68 @@
     for (let i = 0; i < btn.length; i++) {
         document.getElementsByClassName("button")[i].addEventListener("click", function() { btnAdd(i) }, false);
     }
-
-    function btnAdd(i) {
-        var hidden_1 = added[i];
-        var hidden_2 = removed[i];
-        console.log(added);
-        console.log(removed)
-        console.log(btn)
-        if (hidden_1.style.display == "none") {
-            hidden_1.style.display = "block";
-            hidden_2.style.display = "none";
-            document.getElementsByClassName("button")[i].innerHTML = "Add to Cart";
-        } else {
-            hidden_1.style.display = "none";
-            hidden_2.style.display = "block";
-            document.getElementsByClassName("button")[i].innerHTML = "Remove from Cart";
+    
+        function btnAdd(i) {
+            var hidden_1 = added[i];
+            var hidden_2 = removed[i];
+            console.log(added);
+            console.log(removed)
+            console.log(btn)
+            if (hidden_1.style.display == "none") {
+                hidden_1.style.display = "block";
+                hidden_2.style.display = "none";
+                document.getElementsByClassName("button")[i].innerHTML = "Add to Cart";
+            } else {
+                hidden_1.style.display = "none";
+                hidden_2.style.display = "block";
+                document.getElementsByClassName("button")[i].innerHTML = "Remove from Cart";
+            }
         }
-
+        */
+    /* 
+    create new p and child text node each time item is put in the cart
+    */
+    var array = [];
+    var num = 0;
+    var span = 0;
+    var btn = document.getElementsByClassName("button");
+    for (let i = 0; i < btn.length; i++) {
+        btn[i].addEventListener("click", function() { btnAdd(products[i], i) }, false);
     }
 
-    function taxes(){
+    function btnAdd(obj, i) {
+        array.push(obj);
+        console.log(array);
+        document.getElementById("cart").innerHTML += obj.price + " " + obj.productName + "<br>";
+    }
+    
+    function sum() {
+        for (i=0; i<array.length; i++) {
+            var sum =array[i];
+            return sum;
+            console.log(sum);
+        }
+    }
+
+    function taxes() {
         var taxPrice = totalPrice + (totalPrice * 0.22)
     }
 
-    function discount(){
+    function discount() {
         if (taxPrice > 200)
             var lastPrice = taxPrice - (taxPrice * 0.12);
         else if (taxPrice > 100)
             var lastPrice = taxPrice - (taxPrice * 0.07);
-        else 
-            var lastPrice = taxPrice ;
+        else
+            var lastPrice = taxPrice;
     }
 
-    function shipCost(){
+    function shipCost() {
         if (taxPrice > 80)
             var shipping = 6;
-        else 
+        else
             var shipping = 9;
     }
-
     </script>
 </body>
 
