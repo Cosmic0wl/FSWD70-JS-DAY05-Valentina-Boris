@@ -130,6 +130,26 @@
 
     }
 
+    function taxes(){
+        var taxPrice = totalPrice + (totalPrice * 0.22)
+    }
+
+    function discount(){
+        if (taxPrice > 200)
+            var lastPrice = taxPrice - (taxPrice * 0.12);
+        else if (taxPrice > 100)
+            var lastPrice = taxPrice - (taxPrice * 0.07);
+        else 
+            var lastPrice = taxPrice ;
+    }
+
+    function shipCost(){
+        if (taxPrice > 80)
+            var shipping = 6;
+        else 
+            var shipping = 9;
+    }
+
     </script>
 </body>
 
