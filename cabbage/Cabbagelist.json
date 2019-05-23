@@ -1,0 +1,66 @@
+var products = [{
+
+   "productId": "217",
+
+   "productName": "Cabbage",
+
+   "origin": "Austria",
+
+   "price": "3.50"
+
+}, 
+{
+
+   "productId": "619",
+
+   "productName": " Wrestler Cabbage",
+
+   "origin": "Mexico",
+
+   "price": "6.19"
+
+}, 
+{
+
+   "productId": "137",
+
+   "productName": "Gaming Cabbage",
+
+   "origin": "USA",
+
+   "price": "13.37"
+
+}, 
+{
+
+   "productId": "991",
+
+   "productName": "Pickled Cabbage ",
+
+   "origin": "Korea",
+
+   "price": "2.20"
+
+}, 
+{
+
+   "productId": "434",
+
+   "productName": "Kawaii Kabetsu",
+
+   "origin": "Japan",
+
+   "price": "200"
+
+}, 
+{
+
+   "productId": "901",
+
+   "productName": "Cartoon Cabbage",
+
+   "origin": "Drawing",
+
+   "price": "1.05"
+
+} ]
