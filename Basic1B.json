@@ -1,0 +1,170 @@
+var employees = [{
+
+   "userId": "29893944817",
+
+   "jobTitleName": "Developer",
+
+   "firstName": "Patrik",
+
+   "lastName": "Jonathan",
+
+   "preferredFullName": "Patrik Jonathan",
+
+   "emailAddress": "patrik.k.jonathan@gmail.com",
+
+   "salary": "40,000"
+
+}, {
+
+   "userId": "29823964877",
+
+   "jobTitleName": "Analyst",
+
+   "firstName": "Tom",
+
+   "lastName": "Irani",
+
+   "preferredFullName": "Tom Irani",
+
+   "emailAddress": "tomrirani@gmail.com",
+
+   "salary": "41,000"
+
+}, {
+
+   "userId": "25833742117",
+
+   "jobTitleName": "Program Directory",
+
+   "firstName": "Tom",
+
+   "lastName": "Hanks",
+
+   "preferredFullName": "Tom Hanks",
+
+   "emailAddress": "tomhanks@gmail.com",
+
+   "salary": "60,000"
+
+}
+, {
+
+   "userId": "25834342117",
+
+   "jobTitleName": "Sausage Manager",
+
+   "firstName": "John",
+
+   "lastName": "Weener",
+
+   "preferredFullName": "John Weener",
+
+   "emailAddress": "bigsausage164@gmail.com",
+
+   "salary": "69,000"
+
+}
+, {
+
+   "userId": "14333742117",
+
+   "jobTitleName": "Cabbage Engineer",
+
+   "firstName": "Cabrio",
+
+   "lastName": "Hunk",
+
+   "preferredFullName": "Cabrio Hunk",
+
+   "emailAddress": "Cabbagekawaiidesune@gmail.com",
+
+   "salary": "21,000"
+
+}
+, {
+
+   "userId": "15833742117",
+
+   "jobTitleName": "Professional Dog Petter",
+
+   "firstName": "Sirene",
+
+   "lastName": "Beach",
+
+   "preferredFullName": "Sirene Beach",
+
+   "emailAddress": "BeachLovesDoggies@gmail.com",
+
+   "salary": "10 / hr"
+
+}
+, {
+
+   "userId": "25733742117",
+
+   "jobTitleName": "Indoors Firefighter",
+
+   "firstName": "Viktoria",
+
+   "lastName": "Lincoln",
+
+   "preferredFullName": "Viktoria Lincoln",
+
+   "emailAddress": "VikkiHOT@gmail.com",
+
+   "salary": "80,000"
+
+}
+, {
+
+   "userId": "25833749017",
+
+   "jobTitleName": "Lemonade Maker",
+
+   "firstName": "Suzie",
+
+   "lastName": "Nguyen",
+
+   "preferredFullName": "Lemonade Slayer",
+
+   "emailAddress": "LemonsRfkingDOPE@gmail.com",
+
+   "salary": "4 $ per fully squeezed lemon"
+
+
+
+}
+, {
+
+   "userId": "69248008517",
+
+   "jobTitleName": "Assistant Sausage Manager",
+
+   "firstName": "Natasha",
+
+   "lastName": "Kuznetsova",
+
+   "preferredFullName": "Natasha Kuznetsova",
+
+   "emailAddress": "TashyHEARTwinkyface@gmail.com",
+
+   "salary": "Ask John"
+
+}
+, {
+
+   "userId": "25312342117",
+
+   "jobTitleName": "Water Quality Assurance",
+
+   "firstName": "Mizuiro",
+
+   "lastName": "Yoshitora",
+
+   "preferredFullName": "Mizuiro Yoshitora",
+
+   "emailAddress": "MizuYoshi@gmail.com",
+
+   "salary": "100,000"
+}
+];

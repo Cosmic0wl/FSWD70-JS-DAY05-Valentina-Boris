@@ -90,7 +90,10 @@ $cabbage: #99CC43;
 }
 
 
-
+.shopcart {
+    display:flex;
+    justify-content:flex-end;
+}
 /* media queries */
 
 @media only screen and (max-width: 780px) {
